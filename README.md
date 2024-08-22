@@ -1,6 +1,17 @@
 # terraform-example-1-aws-ec2-instance-creation
 terraform-example-1-aws-ec2-instance-creation
 
+**Run below commands**
+```
+> terraform init
+> terraform fmt
+> terraform validate
+> terraform plan
+> terraform providers
+> terraform apply --auto-approve
+> terraform destroy --auto-approve
+```
+
 ## Create an AWS Instance using terraform
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 - Generate a key in local and assign to newly created instance
