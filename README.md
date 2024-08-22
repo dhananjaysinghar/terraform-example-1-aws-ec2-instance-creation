@@ -16,10 +16,12 @@ ssh-keygen -t rsa -f ./id_rsa -N ""
 
 ## Access remotely EC2 using below command with public key of the ec2 instance
 ~~~
-ssh -i "id_rsa" ec2-user@43.205.140.102        
-yum install nginx
-service nginx start
+> ssh -i "id_rsa" ec2-user@43.205.140.102
 
-access http://43.205.140.102/
+#Install nginx in ec2 instance and access remotely
+>sudo -i      
+>yum install nginx
+>service nginx start
+> access http://43.205.140.102/
 ~~~
 
