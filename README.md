@@ -36,3 +36,4 @@ ssh-keygen -t rsa -f ./id_rsa -N ""
 > access http://43.205.140.102/
 ~~~
 
+![ec-2-connect.png](ec-2-connect.png)
